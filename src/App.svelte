@@ -1,6 +1,7 @@
 <script>
   import svelteLogo from './assets/svelte.svg'
   import Counter from './lib/Counter.svelte'
+  import Button from './components/Button.svelte'
 
   let someColor = 'blue'
 
@@ -10,6 +11,7 @@
   <div class="title">
     <div>
       <h1 class="h1">Metztli Development</h1>
+      <Button>Hi</Button>
     </div>
   </div>
   <div>
